@@ -1,0 +1,80 @@
+#wrap {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+#wrap > ul > li {
+    float: left;
+}
+
+#wrap > ul > li.list {
+    width: 300px;
+}
+
+#wrap > ul > li.list > ul {
+    width:270px;
+    padding:10px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+
+#wrap > ul > li.list > ul > li {
+    padding: 7px;
+    height: 20px;
+}
+
+#wrap > ul > li.list > ul > li:hober {
+    background-color: #dadada;
+}
+
+#wrap > ul > li.letter {
+    width: 900px;
+}
+
+/* 편지지 CSS시작 */
+
+#wrap > ul > li.letter > div.letter_wrap {
+    width: 800px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 80px 50px;
+    box-shadow: 3px 3px 3px rgba(220,220,220,.5);
+}
+/*
+#wrap div.to a {
+    color: #242424;
+    text-decoration: none;
+}
+/* 반응 선택자
+#wrap div.to a:hover {
+    text-decoration: underline;
+}
+*/
+
+#wrap > ul > li.letter > div.to {
+    font-style: italic;
+    margin: 0 0 50px 0;
+}
+
+#wrap > ul > li.letter > div.head {
+    width: 90%;
+    border-bottom: double #dadada;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#wrap > ul > li.letter > div.body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#wrap > ul > li.letter > div.body p {
+    margin: 20px 0;
+}
+
+#wrap > ul > li.letter > div.from {
+    text-align: right;
+    font-style: italic;
+    margin-top: 50px;
+}
