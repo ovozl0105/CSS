@@ -1,0 +1,11 @@
+#wrap {
+    width: 400px; 
+    margin: 10px auto;
+}
+
+#wrap ul.item{ 
+    margin-bottom: 15px;
+}
+#wrap li.list > div:nth-last-child(1) img {
+    height: 100px;
+}
